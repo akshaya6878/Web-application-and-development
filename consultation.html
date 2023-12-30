@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor Consultation</title>
+</head>
+<body>
+    <center>
+        <h2>Doctor Consultation</h2>
+        <img src="consultation.png" alt="consult Image" width="200" height="200">
+        <form action="#" method="post">
+            <label for="consultationType">Consultation Type:</label>
+            <br>
+            <select id="consultationType" name="consultationType" required>
+                <option value="online">Online</option>
+                <option value="offline">Offline</option>
+            </select>
+            <br><br>
+
+            <label for="doctorSpecialty">Doctor Specialty:</label>
+            <br>
+            <select id="doctorSpecialty" name="doctorSpecialty" required>
+                <option value="cardiologist">Cardiologist</option>
+                <option value="dermatologist">Dermatologist</option>
+                <option value="orthopedic">Orthopedic Surgeon</option>
+            </select>
+            <br><br>
+
+            <label for="preferredDate">Preferred Date:</label>
+            <br>
+            <input type="date" id="preferredDate" name="preferredDate" required>
+            <br><br>
+
+            <label for="preferredTime">Preferred Time:</label>
+            <br>
+            <input type="time" id="preferredTime" name="preferredTime" required>
+            <br><br>
+
+            <label for="additionalNotes">Additional Notes:</label>
+            <br>
+            <textarea id="additionalNotes" name="additionalNotes" placeholder="Enter any additional notes"></textarea>
+            <br><br>
+
+            <input type="submit" value="Book Consultation">
+        </form>
+        <p>When booking a consultation, users can indicate their preferred date and time, providing flexibility and convenience.</p>
+        <p>Additionally, our platform allows users to input any specific notes or additional information that they feel is relevant for the consultation.</p>
+    </center>
+</body>
+</html>

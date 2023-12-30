@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Records</title>
+</head>
+<body>
+    <center>
+        <h2>Medical Records</h2>
+        <img class="logo" src="records.jpg"  width="180" height="180">
+        <table border="1">
+            <tr>
+                <th>Date</th>
+                <th>Doctor</th>
+                <th>Diagnosis</th>
+                <th>Prescription</th>
+            </tr>
+            <tr>
+                <td>2023-01-01</td>
+                <td>Dr.Akanksha</td>
+                <td>Common Cold</td>
+                <td>Antibiotics</td>
+            </tr>
+            <tr>
+                <td>2023-02-15</td>
+                <td>Dr.Monangi</td>
+                <td>Back Pain</td>
+                <td>Painkillers</td>
+            </tr>
+            <tr>
+                <td>2023-02-20</td>
+                <td>Dr.Ram</td>
+                <td>Shoulder Pain</td>
+                <td>Painkillers</td>
+            </tr>
+            <tr>
+                <td>2023-03-15</td>
+                <td>Dr.Krish</td>
+                <td>Head Ache</td>
+                <td>Painkillers</td>
+            </tr>
+        </table>
+
+        <form action="#" method="post">
+            <label for="recordDate">Date:</label>
+            <input type="date" id="recordDate" name="recordDate" required>
+            <br>
+
+            <label for="recordDoctor">Doctor:</label>
+            <input type="text" id="recordDoctor" name="recordDoctor" required>
+            <br>
+
+            <label for="recordDiagnosis">Diagnosis:</label>
+            <input type="text" id="recordDiagnosis" name="recordDiagnosis" required>
+            <br>
+
+            <label for="recordPrescription">Prescription:</label>
+            <input type="text" id="recordPrescription" name="recordPrescription" required>
+            <br>
+
+            <input type="submit" value="Add Record">
+        </form>
+
+        <p>The platform allows users to upload and store essential medical documents, test reports, and other relevant information.</p>
+        <p>This ensures that healthcare providers have access to accurate and up-to-date records during appointments,</p>
+        <p>enabling them to make informed decisions about diagnoses, treatments, and overall patient care.</p>
+    </center>
+</body>
+</html>

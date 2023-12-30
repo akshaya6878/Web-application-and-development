@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Management</title>
+</head>
+<body>
+    <center>
+        <h2>Profile Management</h2>
+        <img class="logo" src="profile.jpg"  width="180" height="180">
+        <form action="#" method="post" enctype="multipart/form-data">
+            <label for="name">Name:</label>
+            <br>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            <br><br>
+
+            <label for="age">Age:</label>
+            <br>
+            <input type="number" id="age" name="age" placeholder="Enter your age" required>
+            <br><br>
+
+            <label for="bloodGroup">Blood Group:</label>
+            <br>
+            <input type="text" id="bloodGroup" name="bloodGroup" placeholder="Enter your blood group" required>
+            <br><br>
+
+            <label for="patientType">Patient Type (Regular/Irregular):</label>
+            <br>
+            <select id="patientType" name="patientType" required>
+                <option value="regular">Regular</option>
+                <option value="irregular">Irregular</option>
+            </select>
+            <br><br>
+
+            <label for="hospitalName">Hospital Name:</label>
+            <br>
+            <input type="text" id="hospitalName" name="hospitalName" placeholder="Enter your hospital name" required>
+            <br><br>
+
+            <label for="reports">Add Reports:</label>
+            <br>
+            <input type="file" id="reports" name="reports" accept=".pdf, .doc, .docx" multiple>
+            <br><br>
+
+            <input type="submit" value="Update Profile">
+        </form>
+        <p>The update process involves users accessing their profile, making desired changes, and submitting the updated information.</p>
+        <p>This may include modifying contact details, adjusting preferences, or updating essential identification credentials.</p>
+        <p>The system then processes these changes, ensuring the accuracy of user data for future interactions and appointments.</p>
+    </center>
+</body>
+</html>

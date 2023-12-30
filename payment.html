@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appointment Booking with Online Payments</title>
+</head>
+<body>
+    <center>
+        <h2>Payment</h2>
+        <img class="logo" src="payment.jpg"  width="200" height="200">
+        <form action="/process_payment" method="post">
+            <label for="name">Full Name:</label>
+            <br>
+            <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+            <br><br>
+
+            <label for="email">Email:</label>
+            <br>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            <br><br>
+
+            <label for="phone">Phone Number:</label>
+            <br>
+            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+            <br><br>
+
+            <label for="hospital">Select Hospital:</label>
+            <br>
+            <select id="hospital" name="hospital" required>
+                <option value="Hospital1">ABC Hospital</option>
+                <option value="Hospital2">Rk Hospital</option>
+                
+            </select>
+            <br><br>
+
+            <label for="doctor">Select Doctor:</label>
+            <br>
+            <select id="doctor" name="doctor" required>
+                <option value="Dr.1">Dr.Akanksha</option>
+                <option value="Dr.2">Dr.Teju</option>
+              
+            </select>
+            <br><br>
+
+            <label for="date">Preferred Date:</label>
+            <br>
+            <input type="date" id="date" name="date" required>
+            <br><br>
+
+            <label for="payment">Payment Amount:</label>
+            <br>
+            <input type="number" id="payment" name="payment" placeholder="Enter payment amount" required>
+            <br><br>
+
+            <label for="cardNumber">Card Number:</label>
+            <br>
+            <input type="text" id="cardNumber" name="cardNumber" placeholder="Enter your card number" required>
+            <br><br>
+
+            <label for="expiry">Expiry Date:</label>
+            <br>
+            <input type="month" id="expiry" name="expiry" required>
+            <br><br>
+
+            <label for="cvv">CVV:</label>
+            <br>
+            <input type="text" id="cvv" name="cvv" placeholder="Enter CVV" required>
+            <br><br>
+
+            <input type="submit" value="Book Appointment & Pay">
+        </form>
+    </center>
+</body>
+</html>
